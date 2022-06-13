@@ -11,22 +11,3 @@ Optional: If required, linters can be installed with:
 ```
 yarn add --dev eslint solhint prettier prettier-plugin-solidity
 ```
-
-```
-{
-  "name": "hardhat-skeleton-kit",
-  "author": "amv2",
-  "version": "1.0.0",
-  "devDependencies": {
-  },
-  "scripts": {
-    "test": "yarn hardhat test",
-    "test:staging": "yarn hardhat test --network rinkeby",
-    "lint": "yarn solhint 'contracts/*.sol'",
-    "lint:fix": "yarn solhint 'contracts/*.sol' --fix",
-    "format": "yarn prettier --write .",
-    "coverage": "yarn hardhat coverage"
-  }
-}
-
-```
